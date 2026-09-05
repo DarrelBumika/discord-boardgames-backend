@@ -1,7 +1,7 @@
 import express from "express";
 import dotenv from "dotenv";
 import fetch from "node-fetch";
-dotenv.config({ path: "../.env" });
+dotenv.config();
 
 const app = express();
 const port = process.env.PORT || 3001;
